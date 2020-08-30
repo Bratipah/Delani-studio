@@ -1,5 +1,11 @@
 .jumbotron{
     text-align: center;
     align-items: center;
-    background-image: url("./images/backgrounds/c_image.jpg");
+    background-image: url("./images/backgrounds/h_img.jpg");
+    background-size: cover;
+    color: aliceblue;
+    width: 60rem;
+    height: 30rem;
+    margin-left: 5rem;
+    padding-top:10rem ;
 }
