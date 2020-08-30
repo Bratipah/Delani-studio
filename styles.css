@@ -3,6 +3,7 @@
     align-items: center;
     background-image: url("./images/backgrounds/h_img.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     color: aliceblue;
     width: 60rem;
     height: 30rem;
@@ -17,5 +18,13 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .services{
-    
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 3rem;
+    background-image: url("./images/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    padding: 8rem;
+    color: aliceblue;
 }
