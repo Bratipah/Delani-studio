@@ -31,7 +31,7 @@
     color: aliceblue;
     font-size: small;
 }
-.aboutrow{
+.donerow{
     display:flex;
     margin-top:4rem;
     width: 100%;
