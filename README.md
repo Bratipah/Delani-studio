@@ -54,5 +54,5 @@ Bratipah Kioko
 
 ## License
 
-[MIT](https://github.com/Bratipah/Delani-studio/blob/gh-pages/LICENSE.md) © [Bratipah Kioko ](https://github.com/bratipah)
+[LICENSE](https://github.com/Bratipah/Delani-studio/blob/master/LICENSE.md) © [Bratipah Kioko ](https://github.com/bratipah)
 
