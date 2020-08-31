@@ -1,9 +1,11 @@
 $(document).ready(function () { //design fuction and toggling
     $("#design-image").click(function () {
-        $("#design").toggle();
+        $("#design-image").slideUp();
+        $("#design").slideDown();
     });
     $("#design").click(function () {
-        $("#design-image").toggle();
+        $("#design").slideUp();
+        $("#design-image").slideDown();
 
     });
 });
@@ -11,11 +13,15 @@ $(document).ready(function () { //design fuction and toggling
 
 //development image and info toggle
 $(document).ready(function () {
-    $("#development-image").click(function () {
-        $("#development").toggle();
+    $("#develop-image").click(function () {
+        $("#develop-image").slideUp();
+        $("#develop").slideDown();
     });
-    $("#development").click(function () {
-        $("#development-image").toggle();
+    $("#develop").click(function () {
+        $("#develop").slideUp();
+        $("#develop-image").slideDown();
+
+
 
     });
 });
@@ -24,10 +30,11 @@ $(document).ready(function () {
 //production image and toggling info
 $(document).ready(function () {
     $("#production-image").click(function () {
-        $("#production").toggle();
+        $("#production-image").slideUp();
+        $("#production").slideDown();
     });
     $("#production").click(function () {
-        $("#production-image").toggle();
-
+        $("#production").slideup();
+        $("#production-image").slideUp();
     });
 });
