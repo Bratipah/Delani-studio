@@ -1,7 +1,7 @@
 .jumbotron{
     text-align: center;
     align-items: center;
-    background-image: url("./images/backgrounds/h_img.jpg");
+    background-image: url("../images/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue;
@@ -23,7 +23,7 @@
     border-radius: 5px;
     margin-left: 1rem;
     margin-top: 3rem;
-    background-image: url("./images/backgrounds/s_image.jpg");
+    background-image: url("../images/backgrounds/s_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -54,8 +54,8 @@
     width: 100%;
 }
 .contact{
-    text-align: center;
-    background-image: url("./images/backgrounds/c_image.jpg");
+    text-align: center;s
+    background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
