@@ -6,7 +6,8 @@
     background-repeat: no-repeat;
     color: aliceblue;
     width: 100%;
-    height: 30rem;
+    height: 100%;
+    /* height: 30rem; */
     margin-left: 1px;
     padding-top:10rem ;
 }
@@ -38,8 +39,8 @@
     display:flex;
     margin-top:5rem;
     width: 100%;
-    margin-left: 3rem;
-    padding: 5rem;
+    margin:3rem ;
+    padding: 3rem;
 
 }
 
