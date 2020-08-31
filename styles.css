@@ -31,6 +31,18 @@
     color: aliceblue;
     font-size: small;
 }
+.aboutrow{
+    display:flex;
+    margin-top:4rem;
+    width: 100%;
+
+}
+
+.portfolio{
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+}
 .contact{
     text-align: center;
     background-image: url("./images/backgrounds/c_image.jpg");
@@ -67,20 +79,7 @@
     background-color: transparent;
     color: aliceblue;
 
-}  */
-/* .whatdone{
-
-    
-}  */
-/* .portfolio{ 
-    width: 100%;
-    margin-top: 10rem;
-    
-} 
-.savedwork{
-    display: flex;
-    width: ;
-}
+}  
 footer{
     text-align: center;
     margin-top: 5rem;
