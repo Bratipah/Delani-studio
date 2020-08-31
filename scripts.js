@@ -34,7 +34,7 @@ $(document).ready(function () {
         $("#production").slideDown();
     });
     $("#production").click(function () {
-        $("#production").slideup();
-        $("#production-image").slideUp();
+        $("#production").slideUp();
+        $("#production-image").slideDown();
     });
 });

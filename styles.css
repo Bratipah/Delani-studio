@@ -31,12 +31,20 @@
     color: aliceblue;
     font-size: small;
 }
+.done{
+    margin-top: 4rem;
+}
 .donerow{
     display:flex;
-    margin-top:4rem;
+    margin-top:5rem;
     width: 100%;
-    margin-left: 1rem;
+    margin-left: 3rem;
+    padding: 5rem;
 
+}
+
+#production,#develop,#design{
+    display: none;
 }
 
 .portfolio{
