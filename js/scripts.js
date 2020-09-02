@@ -38,3 +38,12 @@ $(document).ready(function () {
         $("#production-image").slideDown();
     });
 });
+
+
+//form input retrieval
+$(document).ready(function subscribe(form1) {
+    var name = document.forms["form1"]["name"];
+    var email = document.forms["form1"]["email"];
+    var message = document.forms["form1"]["message"];
+    alert("We have received your message" + name + "Thank you for reaching to us");
+})
