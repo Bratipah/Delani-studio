@@ -29,25 +29,11 @@
     color: aliceblue;
     font-size: small;
 }
-/* .done{
-    margin-top: 4rem;
-} */
-/* .donerow{
-    margin-top:00%;
-    margin:3rem ;
-    padding: 3rem;
-    display5rem;
-    width: 1: flex;
-} */
 
 #production,#develop,#design{
     display: none;
     text-align: center;
 }
-
-/* #production-image{
-    float: right;
-} */
 
 .portfolio{
     margin-top: 3rem;
@@ -141,7 +127,6 @@
     background-repeat: no-repeat;
     color: white;
     width: 100%;
-    height: ;
     margin-top: 5rem;
     padding-top:40px ;
     font-size: small;
