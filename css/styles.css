@@ -1,19 +1,19 @@
-.jumbotron{
+.welcome{
     text-align: center;
-    align-items: center;
     background-image: url("../images/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue;
     width: 100%;
     height: 100%;
-    /* height: 30rem; */
+    height: 50rem;
     padding-top:10rem ;
 }
 .about{
     text-align: center;
     font-size: small;
     width: 100%;
+    margin-top: 3rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .services{
@@ -29,32 +29,110 @@
     color: aliceblue;
     font-size: small;
 }
-.done{
+/* .done{
     margin-top: 4rem;
-}
-.donerow{
-    display:flex;
-    margin-top:5rem;
-    width: 100%;
+} */
+/* .donerow{
+    margin-top:00%;
     margin:3rem ;
     padding: 3rem;
-
-}
+    display5rem;
+    width: 1: flex;
+} */
 
 #production,#develop,#design{
     display: none;
     text-align: center;
 }
 
-#production-image{
-    margin-left: 8rem;
-}
+/* #production-image{
+    float: right;
+} */
 
 .portfolio{
     margin-top: 3rem;
     text-align: center;
     width: 100%;
 }
+#mouse-hover1{
+    position: absolute;
+    display: none;
+    color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+#mouse-hover2{
+    position: absolute;
+    display: none;
+    color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+#mouse-hover3{
+    position: absolute;
+    display: none;
+    color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+#mouse-hover4{
+    position: absolute;
+    display: none;
+    color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+#mouse-hover5{
+    position: absolute;
+    display: none;
+    color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+#mouse-hover6{
+    position: absolute;
+    display: none;
+    color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+#mouse-hover7{
+    position: absolute;
+    display: none;
+    color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+#mouse-hover8{
+    position: absolute;
+    display: none;
+    color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+.mouse-hover1{
+    position: absolute;
+    display: none;
+}
+#img3 {
+    position: relative;
+}
+#img4 {
+    position: relative;
+}
+.mouse-hover2 {
+    position: absolute;
+    display: none;
+}
+
 
 .contact{
     text-align: center;
@@ -63,7 +141,7 @@
     background-repeat: no-repeat;
     color: white;
     width: 100%;
-    height: 30rem;
+    height: ;
     margin-top: 5rem;
     padding-top:40px ;
     font-size: small;
@@ -81,27 +159,42 @@ form{
     background-color: transparent;
     color: aliceblue;
     margin-left: 2rem;
-    width: 20rem;
+    width: 25rem;
     
 }
 #message{
     background-color: transparent;
-    text-align: center;
     align-items: center;
     color: aliceblue;
-    margin-left: 5rem;
+    margin-left: 4rem;
     margin-top: 3rem;
-    width: 20rem;
-    height: 20rem;
+    width: 55rem;
+    height: 15rem;
 }
 #name{
     background-color: transparent;
     color: aliceblue;
     margin-left: 4rem;
-    width: 20rem;
+    width: 25rem;
 
 }  
 footer{
     text-align: center;
     margin-top: 5rem;
+}
+@media (max-width: 1000px) {
+    .donerow {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+    .donerow {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
